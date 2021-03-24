@@ -10,10 +10,10 @@ class URIBox extends HidableControl {
         super(val)
 
         const urlText = getInnerText(this.controlDiv)
-        urlText.data = `${location.host}?view&id=`
+        urlText.data = `http://${location.host}?view&id=`
 
         this.copyButton.onclick = async () => {
-            await clipboardCopy(`${HOST}?view&id=${this.idDiv.value}`)
+            await clipboardCopy(`http://${HOST}?view&id=${this.idDiv.value}`)
         }
     }
     setID(val: string) {
