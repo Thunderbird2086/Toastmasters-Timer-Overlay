@@ -66,6 +66,30 @@ const presetStr: IPresetString[] = [
         overtime: '05:00'
     },
     {
+        name: 'SSpeech',
+        fullName: 'Speech (3-4min)',
+        green: '03:00',
+        yellow: '03:30',
+        red: '04:00',
+        overtime: '04:30'
+    },
+    {
+        name: 'MSpeech',
+        fullName: 'Speech (8-10min)',
+        green: '08:00',
+        yellow: '09:00',
+        red: '10:00',
+        overtime: '11:00'
+    },
+    {
+        name: 'LSpeech',
+        fullName: 'Speech (18-22min)',
+        green: '18:00',
+        yellow: '20:00',
+        red: '22:00',
+        overtime: '23:00'
+    },
+    {
         name: 'Test',
         fullName: 'Test',
         green: '00:05',
